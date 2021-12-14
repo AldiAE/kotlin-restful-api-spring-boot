@@ -1,1 +1,1 @@
-web: java -jar target/kotlin-restful-api-spring-boot-*.jar
+web: java -Dspring.profiles.active=prod -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
