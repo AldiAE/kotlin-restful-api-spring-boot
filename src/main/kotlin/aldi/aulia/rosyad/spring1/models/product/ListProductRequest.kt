@@ -1,4 +1,4 @@
-package aldi.aulia.rosyad.spring1.models
+package aldi.aulia.rosyad.spring1.models.product
 
 data class ListProductRequest(
 

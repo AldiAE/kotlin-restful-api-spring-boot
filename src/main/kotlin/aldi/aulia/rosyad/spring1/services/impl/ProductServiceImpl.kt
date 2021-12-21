@@ -1,10 +1,10 @@
 package aldi.aulia.rosyad.spring1.services.impl
 
 import aldi.aulia.rosyad.spring1.entities.Product
-import aldi.aulia.rosyad.spring1.models.CreateProductRequest
-import aldi.aulia.rosyad.spring1.models.ListProductRequest
-import aldi.aulia.rosyad.spring1.models.ProductResponse
-import aldi.aulia.rosyad.spring1.models.UpdateProductRequest
+import aldi.aulia.rosyad.spring1.models.product.CreateProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ListProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ProductResponse
+import aldi.aulia.rosyad.spring1.models.product.UpdateProductRequest
 import aldi.aulia.rosyad.spring1.repositories.ProductRepository
 import aldi.aulia.rosyad.spring1.services.ProductService
 import aldi.aulia.rosyad.spring1.validations.ValidationUtil
@@ -76,7 +76,7 @@ class ProductServiceImpl(
         if (product == null) {
             throw ChangeSetPersister.NotFoundException()
         } else {
-            return product;
+            return product
         }
     }
 

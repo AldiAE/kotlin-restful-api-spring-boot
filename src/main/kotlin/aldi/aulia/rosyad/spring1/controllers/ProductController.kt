@@ -1,6 +1,10 @@
 package aldi.aulia.rosyad.spring1.controllers
 
 import aldi.aulia.rosyad.spring1.models.*
+import aldi.aulia.rosyad.spring1.models.product.CreateProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ListProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ProductResponse
+import aldi.aulia.rosyad.spring1.models.product.UpdateProductRequest
 import aldi.aulia.rosyad.spring1.services.ProductService
 import org.springframework.web.bind.annotation.*
 

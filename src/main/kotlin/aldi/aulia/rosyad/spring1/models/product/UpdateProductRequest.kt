@@ -1,4 +1,4 @@
-package aldi.aulia.rosyad.spring1.models
+package aldi.aulia.rosyad.spring1.models.product
 
 import javax.validation.constraints.Min
 import javax.validation.constraints.NotBlank

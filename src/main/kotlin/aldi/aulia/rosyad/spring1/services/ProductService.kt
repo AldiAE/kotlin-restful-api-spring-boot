@@ -1,9 +1,9 @@
 package aldi.aulia.rosyad.spring1.services
 
-import aldi.aulia.rosyad.spring1.models.CreateProductRequest
-import aldi.aulia.rosyad.spring1.models.ListProductRequest
-import aldi.aulia.rosyad.spring1.models.ProductResponse
-import aldi.aulia.rosyad.spring1.models.UpdateProductRequest
+import aldi.aulia.rosyad.spring1.models.product.CreateProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ListProductRequest
+import aldi.aulia.rosyad.spring1.models.product.ProductResponse
+import aldi.aulia.rosyad.spring1.models.product.UpdateProductRequest
 
 interface ProductService {
 
