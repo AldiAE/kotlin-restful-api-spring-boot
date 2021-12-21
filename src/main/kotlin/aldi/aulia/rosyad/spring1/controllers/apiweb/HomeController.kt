@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*
 class HomeController(val homeService: HomeService) {
 
     @PostMapping(
-        value = ["/api/pesonalweb/homes"],
+        value = ["/api/personalweb/homes"],
         produces = ["application/json"],
         consumes = ["application/json"]
     )
@@ -26,7 +26,7 @@ class HomeController(val homeService: HomeService) {
     }
 
     @GetMapping(
-        value = ["/api/pesonalweb/homes/{idHome}"],
+        value = ["/api/personalweb/homes/{idHome}"],
         produces = ["application/json"]
     )
     fun getHome(@PathVariable("idHome") id: String): WebResponse<HomeResponse> {
@@ -39,7 +39,7 @@ class HomeController(val homeService: HomeService) {
     }
 
     @PutMapping(
-        value = ["/api/pesonalweb/homes/{idHome}"],
+        value = ["/api/personalweb/homes/{idHome}"],
         produces = ["application/json"],
         consumes = ["application/json"]
     )
@@ -55,7 +55,7 @@ class HomeController(val homeService: HomeService) {
     }
 
     @DeleteMapping(
-        value = ["/api/pesonalweb/homes/{idHome}"],
+        value = ["/api/personalweb/homes/{idHome}"],
         produces = ["application/json"]
     )
     fun deleteHome(@PathVariable("idHome") id: String): WebResponse<String> {
@@ -68,7 +68,7 @@ class HomeController(val homeService: HomeService) {
     }
 
     @GetMapping(
-        value = ["/api/pesonalweb/homes"],
+        value = ["/api/personalweb/homes"],
         produces = ["application/json"]
     )
     fun listHomes(@RequestParam(value = "size", defaultValue = "10") size: Int,
