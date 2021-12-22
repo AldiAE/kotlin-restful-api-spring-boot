@@ -81,7 +81,7 @@ class HomeServiceImpl(
         return HomeResponse(
             id = home.id,
             name = home.name,
-            short_abut = home.short_about,
+            short_about = home.short_about,
             createdAt = home.createdAt,
             updatedAt = home.updatedAt
         )

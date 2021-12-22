@@ -8,7 +8,7 @@ data class HomeResponse(
 
     val name: String,
 
-    val short_abut: String,
+    val short_about: String,
 
     val createdAt: Date,
 
